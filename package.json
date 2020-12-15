@@ -1,0 +1,33 @@
+{
+  "name": "datanorm-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.26",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:start": "nodemon index.js",
+    "docker:up": "docker-compose up -d",
+    "start": "cross-env NODE_ENV=production node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nino1337/datanorm-manager.git"
+  },
+  "author": "Nino Dornemann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nino1337/datanorm-manager/issues"
+  },
+  "homepage": "https://github.com/nino1337/datanorm-manager#readme"
+}

@@ -1,0 +1,12 @@
+version: "3"
+services:
+  mongo:
+    image: "mongo"
+    container_name: "datanorm-reader-mongo"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=nino
+      - MONGO_INITDB_ROOT_PASSWORD=pass1234
+    ports:
+      - "27017:27017"
+    command: [--auth]
+    restart: always

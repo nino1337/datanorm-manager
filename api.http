@@ -1,0 +1,5 @@
+GET http://localhost:8090/api/datanorm HTTP/1.1
+###
+POST http://localhost:8090/api/datanorm HTTP/1.1
+###
+DELETE http://localhost:8090/api/datanorm HTTP/1.1
