@@ -1,3 +1,3 @@
 # datanorm-manager
 
-app to manage datanorm files and filter for products
+App to manage datanorm files and filter for products.
