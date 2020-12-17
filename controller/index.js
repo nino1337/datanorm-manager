@@ -3,6 +3,7 @@ exports.getDatanorm = (req, res) => {
 };
 
 exports.createDatanorm = (req, res) => {
+  console.log(req.body);
   res.sendStatus(201);
 };
 

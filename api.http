@@ -1,5 +1,16 @@
 GET http://localhost:8090/api/datanorm HTTP/1.1
 ###
 POST http://localhost:8090/api/datanorm HTTP/1.1
+content-type: application/json
+
+{
+  "name": "Datanorm1",
+  "time": "16. Dezember, 10:58 Uhr",
+  "data": [
+    {
+      
+    }
+  ]
+}
 ###
 DELETE http://localhost:8090/api/datanorm HTTP/1.1
